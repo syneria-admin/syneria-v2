@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* C'est ici que tu injectes les couleurs spécifiques de SYNERIA */
+@theme {
+  --color-orange-500: #F26522;
+  --color-orange-600: #d85510;
+}
+
+/* Base de ton application */
+@layer base {
+  body {
+    background-color: #000;
+    color: #fff;
+  }
+}
